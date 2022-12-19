@@ -1,0 +1,12 @@
+target: possion_3d
+n_samps_domain: 1000000
+n_samps_bc: 1000000
+batch_size: 5000
+shape_name: cone
+shape_kwargs:
+    centre: [0., 0.]
+    radius: .5
+    h_min: 0.
+    h_max: 1.
+    h_axis: 2
+    boundary_type: 'uniform'
